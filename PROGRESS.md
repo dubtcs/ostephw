@@ -6,8 +6,8 @@ This is my progress tracker for the OSTEP textbook.
 - [x] Processes
 - [x] Process API
 - [x] Direct Execution
-- [ ] CPU Scheduling
-- [ ] Multi Level Feedback
+- [x] CPU Scheduling
+- [x] Multi Level Feedback
 - [ ] Lottery Scheduling
 - [ ] Multi CPU Scheduling
 - [ ] Address Spaces
