@@ -8,9 +8,9 @@ This is my progress tracker for the OSTEP textbook.
 - [x] Direct Execution
 - [x] CPU Scheduling
 - [x] Multi Level Feedback
-- [ ] Lottery Scheduling
-- [ ] Multi CPU Scheduling
-- [ ] Address Spaces
+- [x] Lottery Scheduling
+- [ ] Multi CPU Scheduling -- Come back to after completing concurrency
+- [x] Address Spaces
 - [ ] Memory API
 - [ ] Address Translation
 - [ ] Segmentation
