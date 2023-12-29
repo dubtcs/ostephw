@@ -11,7 +11,7 @@ This is my progress tracker for the OSTEP textbook.
 - [x] Lottery Scheduling
 - [ ] Multi CPU Scheduling -- Come back to after completing concurrency
 - [x] Address Spaces
-- [ ] Memory API
+- [x] Memory API
 - [ ] Address Translation
 - [ ] Segmentation
 - [ ] Free Space Management
