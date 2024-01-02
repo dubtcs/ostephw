@@ -29,4 +29,4 @@ As the percent increases, the system has a harder time finding suitable memory s
 
 7.  What kind of specific requests can you make to generate a highlyfragmented free space? Use the -A flag to create fragmented free lists, and see how different policies and options change the organization of the free list.
 
-Sizesort first fit and 50/50 alloc/dealloc with variable size memory requests.
+Size sort first fit and 50/50 alloc/dealloc with variable size memory requests.
