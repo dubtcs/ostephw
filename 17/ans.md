@@ -25,7 +25,7 @@ Ordering matters. Address ordering with best fit coalesces the list to length 2 
 
 6. What happens when you change the percent allocated fraction -P to higher than 50? What happens to allocations as it nears 100? What about as the percent nears 0?
 
-As the percent increases, the system has a harder time finding suitable memory segments for the request. As it nears 100% it starts to always return null.
+As the percent increases, the system has a harder time finding suitable memory segments for the request. As it nears 100% it starts to always return null. 
 
 7.  What kind of specific requests can you make to generate a highlyfragmented free space? Use the -A flag to create fragmented free lists, and see how different policies and options change the organization of the free list.
 
