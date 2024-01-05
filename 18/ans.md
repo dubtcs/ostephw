@@ -37,7 +37,7 @@ What happens as you increase the percentage of pages that are allocated in each 
 
 More valid pages are added to the page table.
 
-3. Now let’s try some different random seeds, and some different (and sometimes quite crazy) address-space parameters, for variety:
+3. Now let’s try some different random seeds, and some different (and sometimes quite crazy) address-space parameters, for variety: 
 
 ```
 -P 8 -a 32 -p 1024 -v -s 1
