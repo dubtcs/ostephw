@@ -24,8 +24,8 @@ This is my progress tracker for the OSTEP textbook.
 
 ## Concurrency
 
-- [ ] (26) Concurrency and Threads
-- [ ] (27) Thread API
+- [x] (26) Concurrency and Threads
+- [x] (27) Thread API
 - [ ] (28) Locks
 - [ ] (29) Locked Data Structures
 - [ ] (30) Condition Variables
