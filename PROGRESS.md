@@ -16,7 +16,7 @@ This is my progress tracker for the OSTEP textbook.
 - [x] (16) Segmentation
 - [x] (17) Free Space Management
 - [x] (18) Intro To Paging
-- [ ] (19) Translation Lookaside Buffer
+- [x] (19) Translation Lookaside Buffer
 - [ ] (20) Advanced Page Tables
 - [ ] (21) Swapping Mechanics
 - [ ] (22) Swapping Policies
