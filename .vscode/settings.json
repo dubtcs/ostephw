@@ -4,6 +4,8 @@
         "wait.h": "c",
         "stdbool.h": "c",
         "time.h": "c",
-        "clock_t.h": "c"
+        "clock_t.h": "c",
+        "unistd.h": "c",
+        "stdlib.h": "c"
     }
 }
