@@ -14,6 +14,11 @@
 
 typedef struct __barrier_t {
     // add semaphores and other information here
+    sem_t lock;
+    sem_t stage1;
+    sem_t stage2;
+    int arrivals;
+    int threads;
 } barrier_t;
 
 
@@ -22,10 +27,41 @@ barrier_t b;
 
 void barrier_init(barrier_t *b, int num_threads) {
     // initialization code goes here
+    sem_init(&b->stage1, 1, 0);
+    sem_init(&b->stage2, 1, 0);
+    sem_init(&b->lock, 1, 1);
+    b->arrivals = 0;
+    b->threads = num_threads;
 }
 
 void barrier(barrier_t *b) {
     // barrier code goes here
+    sem_wait(&b->lock);
+    b->arrivals++;
+    if(b->arrivals >= b->threads)
+    {
+        for(int i = 0; i < b->threads; i++)
+        {
+            sem_post(&b->stage1); // increase sem1 to thread count
+            // must be inside loop so each time this is called, it wakes another thread
+        }
+    }
+    sem_post(&b->lock);
+
+    sem_wait(&b->stage1); // wait for all stage1 work
+
+    sem_wait(&b->lock);
+    b->arrivals--;
+    if(b->arrivals <= 0)
+    {
+        for(int i = 0; i < b->threads; i++)
+        {
+            sem_post(&b->stage2); // increase sem2 to thread count
+        }
+    }
+    sem_post(&b->lock);
+
+    sem_wait(&b->stage2);
 }
 
 //
@@ -59,12 +95,12 @@ int main(int argc, char *argv[]) {
     
     int i;
     for (i = 0; i < num_threads; i++) {
-	t[i].thread_id = i;
-	Pthread_create(&p[i], NULL, child, &t[i]);
+        t[i].thread_id = i;
+        Pthread_create(&p[i], NULL, child, &t[i]);
     }
 
     for (i = 0; i < num_threads; i++) 
-	Pthread_join(p[i], NULL);
+	    Pthread_join(p[i], NULL);
 
     printf("parent: end\n");
     return 0;
