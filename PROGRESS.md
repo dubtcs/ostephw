@@ -30,7 +30,7 @@ This is my progress tracker for the OSTEP textbook.
 - [x] (29) Locked Data Structures
 - [x] (30) Condition Variables
 - [x] (31) Semaphores
-- [ ] (32) Concurrency Bugs
+- [x] (32) Concurrency Bugs
 - [ ] (33) Event based concurrency
 
 ## Persistence
