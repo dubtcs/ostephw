@@ -17,7 +17,7 @@ This is my progress tracker for the OSTEP textbook.
 - [x] (17) Free Space Management
 - [x] (18) Intro To Paging
 - [x] (19) Translation Lookaside Buffer
-- [ ] (20) Advanced Page Tables
+- [x] (20) Advanced Page Tables
 - [ ] (21) Swapping Mechanics
 - [ ] (22) Swapping Policies
 - [ ] (23) Complete VM Systems
@@ -31,7 +31,7 @@ This is my progress tracker for the OSTEP textbook.
 - [x] (30) Condition Variables
 - [x] (31) Semaphores
 - [x] (32) Concurrency Bugs
-- [ ] (33) Event based concurrency
+- [x] (33) Event based concurrency
 
 ## Persistence
 
