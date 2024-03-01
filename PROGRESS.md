@@ -19,8 +19,8 @@ This is my progress tracker for the OSTEP textbook.
 - [x] (19) Translation Lookaside Buffer
 - [x] (20) Advanced Page Tables
 - [x] (21) Swapping Mechanics
-- [ ] (22) Swapping Policies
-- [ ] (23) Complete VM Systems
+- [x] (22) Swapping Policies
+- [x] (23) Complete VM Systems
 
 ## Concurrency
 
