@@ -9,7 +9,7 @@ This is my progress tracker for the OSTEP textbook.
 - [x] (07) CPU Scheduling
 - [x] (08) Multi Level Feedback
 - [x] (09) Lottery Scheduling
-- [ ] (10) Multi CPU Scheduling -- Come back to after completing concurrency
+- [x] (10) Multi CPU Scheduling -- Come back to after completing concurrency
 - [x] (13) Address Spaces
 - [x] (14) Memory API
 - [x] (15) Address Translation
@@ -35,7 +35,7 @@ This is my progress tracker for the OSTEP textbook.
 
 ## Persistence
 
-- [ ] (36) IO Devices
+- [x] (36) IO Devices
 - [ ] (37) HDD
 - [ ] (38) Redundant disk arrays
 - [ ] (39) Files and Directories
