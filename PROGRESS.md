@@ -36,8 +36,8 @@ This is my progress tracker for the OSTEP textbook.
 ## Persistence
 
 - [x] (36) IO Devices
-- [ ] (37) HDD
-- [ ] (38) Redundant disk arrays
+- [x] (37) HDD
+- [x] (38) Redundant disk arrays
 - [ ] (39) Files and Directories
 - [ ] (40) File System Implementations
 - [ ] (41) Fast File Systems
